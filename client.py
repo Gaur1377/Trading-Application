@@ -5,8 +5,8 @@ from logger import logger
 class BinanceFutureClient:
 
     def __init__(self):
-        self.client = Client(API_KEY,API_SECRET)
-        self.client.FUTURES_URL = "https://testnet.binancefuture.com/en/futures/BTCUSDT"
+        self.client = Client(API_KEY,API_SECRET,testnet=True)
+        self.client.FUTURES_URL = "https://demo-fapi.binance.com"
 
     def place_order(self,symbol,side,order_type,quantity,price=None):
         try:
