@@ -1,0 +1,12 @@
+binance_cli_trader
+│
+├── client.py
+├── cli.py
+├── config.py
+├── logger.py
+├── .env
+└── logs
+    └── app.log2026-03-06 19:27:30,431 | INFO | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-03-06 19:27:31,307 | ERROR | Order failed : APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-03-06 20:05:25,018 | INFO | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-06 20:05:26,343 | INFO | API Response: {}
