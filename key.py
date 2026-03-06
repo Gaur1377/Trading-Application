@@ -1,2 +1,1 @@
-API_KEY="gpZW8nr0LujY9cLnCmROvn5d6QoQc4KouyPp0eLrfVk76aqH8vzpMH3SQeioivc5"
-SECRET_KEY="6pkfEL1u0DYIsp0IfCvpCcU1abg5IGNMsrR82v0jcscktcqcgwmTmriQdPgpZOHV"
+
